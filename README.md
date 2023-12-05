@@ -3,7 +3,7 @@
 
 `
 `      --------Part 1--------   --------Part 2--------
-`Day       Time   Rank  Score       Time   Rank  Score
+` Day    Time     Rank  Score       Time   Rank  Score
 `  5   00:48:45   6201      0   01:54:25   4104      0
 `  4   00:07:07   1661      0   00:16:48   1539      0
 `  3   00:45:00   5158      0   01:00:40   4396      0
