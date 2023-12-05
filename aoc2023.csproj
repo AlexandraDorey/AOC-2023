@@ -15,6 +15,9 @@
     <None Update="Data\aoc1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Data\aoc5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\aoc4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

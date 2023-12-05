@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adent_of_Code;
+namespace aoc2023;
 public static class Day03
 {
     public static int step1()

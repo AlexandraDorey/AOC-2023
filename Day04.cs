@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adent_of_Code;
+namespace aoc2023;
 public static class Day04
 {
     public static int step1()
     {
-        var input = File.ReadAllLines("data\\aoc4.txt");
+        var input = File.ReadAllLines("data\\aoc5.txt");
 
         int total = 0;
 
@@ -66,7 +66,7 @@ public static class Day04
             int res = process(line); // moved here so solution is fast instead of taking like 20s.
             for (int z = 0; z < counts[cp]; z++)
             {
-                // int res = process(line); // original SLOW location :facepalm: but it worked.
+                //int res = process(line); // original SLOW location :facepalm: but it worked.
                 for (int y = cp + 1; y < cp + res + 1; y++)
                 {
                     counts[y]++;
