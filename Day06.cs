@@ -59,7 +59,7 @@ public static class Day06
             return total.ToString();
     }
 
-    // note just manually moded to remove the spaces and ran my step one again.
+    // note just manually moded to remove the spaces in the input file and ran my step one again.
     public static string step2()
     {
         var input = File.ReadAllLines("data\\aoc6-mod.txt");
