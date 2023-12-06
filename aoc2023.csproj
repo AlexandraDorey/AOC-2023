@@ -15,6 +15,12 @@
     <None Update="Data\aoc1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Data\aoc6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\aoc6-mod.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\aoc5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

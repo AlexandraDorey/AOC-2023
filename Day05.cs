@@ -102,6 +102,7 @@ public static class Day05
 
     public static string step2()
     {
+        long largestnumber = 0;
 
         var input = File.ReadAllLines("data\\aoc5.txt");
 
@@ -122,7 +123,6 @@ public static class Day05
                 for(int x = 0; x < chunksplit2.Length;x=x+2)
                 {
                     seeds.Add((long.Parse(chunksplit2[x]), long.Parse(chunksplit2[x+1])));
-
                 }
                 linec++;
                 continue;
@@ -158,6 +158,8 @@ public static class Day05
 
         long lowest = long.MaxValue;
         
+
+
         for (int x = 0; x < seeds.Count; x++)
         {
             Queue<(long seed, long size)> seedsC = new();
