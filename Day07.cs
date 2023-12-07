@@ -157,6 +157,7 @@ public static class Day07
                         if (Hand[z] == 'J' && !done)
                         {
                             newhand += c;
+                            done = true;
                         }
                         else
                         {
