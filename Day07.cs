@@ -146,6 +146,11 @@ public static class Day07
                 foreach (char c in allsuits)
                 {
                     bool done = false;
+
+                    // So there actually is no case when wouldn't want all J to go to the same
+                    // thing. Could have totally shaved some time if I'd just used
+                    // string newhand = Hand.Replace('J', c);
+
                     string newhand = "";
                     for (int z = 0; z < 5; z++)
                     {
@@ -159,6 +164,7 @@ public static class Day07
                         }
                     }
 
+                    // end extra work. Oh and it doesn't need to recurse either :P 
                     int prank = GetBest(newhand);
                     if (prank < bestrank)
                     {
