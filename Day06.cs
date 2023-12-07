@@ -56,7 +56,7 @@ public static class Day06
             total *= wins;
         }
 
-            return total.ToString();
+        return total.ToString();
     }
 
     // note just manually moded to remove the spaces in the input file and ran my step one again.

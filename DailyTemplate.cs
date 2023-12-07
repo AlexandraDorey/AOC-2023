@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace aoc2023;
-public static class Day0X
+public static class Day0x
 {
-    private static int St2Int(this string input) => int.Parse(input);
+    private static long St2Int(this string input) => long.Parse(input);
     private static double St2Fl(this string input) => double.Parse(input);
     private static DateTime St2Dt(this string input) => DateTime.Parse(input);
 
@@ -68,7 +68,7 @@ public static class Day0X
             {
                 string pad3 = "";
 
-                int resint = pad3.St2Int();
+                long resint = pad3.St2Int();
                 double resflt = pad3.St2Fl();
                 DateTime resdt = pad3.St2Dt();
             }
