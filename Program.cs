@@ -6,8 +6,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"Day05: Step1: {Day07.step1()}");
-        Console.WriteLine($"Day05: Step2: {Day07.step2()}");
+        Console.WriteLine($"Day08: StepRage: {Day08.step2rage()}");
+        Console.WriteLine($"Day08: Step2: {Day08.step2()}");
     }
 }
  
