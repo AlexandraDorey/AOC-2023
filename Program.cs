@@ -7,7 +7,7 @@ internal class Program
     static void Main(string[] args)
     {
         
-        Console.WriteLine($"Day10: Step1: {Day10Rec.step2()}");
+        Console.WriteLine($"Day11: Step1: {Day11.step2()}");
     }
 }
  
